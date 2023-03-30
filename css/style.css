@@ -1,0 +1,578 @@
+body {
+  background-color: #1b41eb;
+}
+
+.container-fluid row {
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #1b41eb;
+  color: white;
+}
+
+ul.active {
+  width: 0%;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: left;
+}
+
+li {
+  text-align: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #1b41eb;
+  color: white;
+  border-bottom: 1px solid #555;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(233, 232, 232);
+  color: black;
+  border-radius: 1em 0 0 1em;
+}
+
+.item {
+  padding: 0.3em;
+  background-color: rgb(255, 255, 255);
+  height: 6em;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px rgb(197, 197, 197);
+}
+
+.item2 {
+  width: auto;
+  height: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: limegreen;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: auto;
+  height: 1.5em;
+  padding: 0 5px 0 5px; 
+}
+
+.graph {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.sal {
+  background-color: rgb(233, 232, 232);
+  padding-top: 0.2em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 2em;
+}
+
+.s1 {
+  width: auto;
+  height: auto;
+}
+
+.s2 {
+  background-color: white;
+  width: auto;
+  height: 1.5em;
+}
+
+.graph1 {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  background-color: white;
+  
+}
+
+.graph2 {
+  width: 100%;
+  height: auto;
+}
+
+.graphsheet {
+  width: 100%;
+  height: auto;
+}
+
+.g1 {
+  float: left;
+  width: 25%;
+  height: 2.5em;
+  font-size: 100%;
+}
+
+.g2 {
+  float: right;
+  background-color: rgb(198, 198, 199);
+  border: 1px solid grey;
+  border-radius: 0.3em;
+  width: auto;
+  height: 1.5em;
+}
+
+.pie {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+
+.weekly {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.3em;
+}
+
+.week1 {
+  font-size: 70%;
+  width: 65%;
+  height: 2em;
+  padding-left: 2%;
+}
+
+.week2 {
+  font-size: 60%;
+  color: blue;
+  width: 34%;
+  height: 2em;
+  padding-left: 4%;
+}
+
+.ch1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+
+.ch2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+
+.dot1 {
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 10px;
+  width: 10px;
+  background-color: Orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 10px;
+  width: 10px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.store {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  border-radius: 0.4em;
+  padding-bottom: 0.5em;
+}
+
+.best {
+  background-color: none;
+  height: auto;
+  width: 100%;
+}
+
+.best1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.2em;
+  height: 2.5em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4em;
+}
+
+.best2 {
+  padding-left: 0.3em;
+  height: auto;
+  width: 70%;
+}
+
+.best3 {
+  height: auto;
+  width: auto;
+  padding-top: 0.3em;
+}
+
+.best4 {
+  float: right;
+  height: auto;
+  width: auto;
+  padding: 0.3em 0.3em 0 0;
+}
+
+.b3 {
+  float: left;
+  padding-top: 0.3em;
+  height: 4em;
+  width: 2em;
+}
+
+.b4 {
+  padding-left: 0.5em;
+  font-size: 12px;
+  float: left;
+  height: 4em;
+  width: auto;
+}
+
+.imgb1 {
+  width: 2em;
+  border-radius: 50%;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.image img:nth-child(1){
+  position: relative; 
+  left: 8%;
+}
+.image img:nth-child(2){
+  position: relative;
+  right: 4%;
+}
+.image img:nth-child(3){ 
+  position: relative;
+  right: 16%;
+}
+
+.oops {
+  background-color: #dddcdc;
+  width: 95%;
+  height: 12em;
+  margin-left: 2%;
+}
+
+.sign {
+  width: 10%;
+  height: auto;
+}
+
+.wrong {
+  
+  float: right;
+  width: 90%;
+  height: auto;
+  font-size: 100%;
+}
+
+.Product {
+  background-color: rgb(253, 252, 252);
+  height: 7em;
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.Product1 {
+  float: left;
+  font-size: 8px;
+  height: auto;
+  width: 28%;
+  padding-top: 2em;
+}
+
+.Product2 {
+  float: right;
+  height: auto;
+  width: 70%;
+}
+
+.product3 {
+  font-size: 10px;
+  height: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product4 {
+  height: 5.5em;
+  width: 100%;
+}
+
+.p3a {
+  height: auto;
+  width: 65%;
+}
+
+.p3b {
+  background-color: grey;
+  border-radius: 0.5em;
+  height: auto;
+  width: auto;
+}
+
+.top4 {
+  background-color: none;
+  height: 2em;
+  width: 100%;
+}
+
+.weektop {
+  float: left;
+  height: 2em;
+  width: auto;
+}
+.exports {
+  float: right;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around; 
+}
+.export { 
+  background-color: rgb(255, 250, 250);
+  border-radius: 0.5em;
+  margin: 0 0.3em 0 0.3em;
+  padding: 0.2em 0.3em 0 0.3em;
+  height: auto;
+  width: auto;
+}
+
+.stock1 {
+  background-color: none;
+  height: 2em;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.l1 {
+  float: left;
+  height: auto;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+.ll1 {
+  height: 2em;
+  width: auto;  
+}
+.r1 {
+  float: right;
+  height: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.rr1 {
+  height: 2em;
+  width: auto;
+}
+
+.l2 {
+  padding-left: 2%;
+  font-size: 100%;
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+.r2 {
+  font-size: 100%;
+  float: right;
+  height: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.rr2 {
+  height: 2em;
+  width: auto;
+}
+.stock {
+  background-color: rgb(255, 255, 255);
+  height: 2.7em;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 0.4em;
+}
+.image {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.image img:nth-child(1){
+  position: relative; 
+  left: 8%;
+}
+.image img:nth-child(2){
+  position: relative;
+  right: 4%;
+}
+.image img:nth-child(3){ 
+  position: relative;
+  right: 16%;
+}
+
+.view {
+  background-color: rgb(255, 248, 248);
+  height: 3em;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.4em;
+}
+
+.viewes {
+  border: 1px solid grey;
+  background-color: none;
+  height: 2em;
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+
+.activity {
+  padding-top: 1em;
+  height: 3em;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activities {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.activity1 {
+  height: auto;
+  width: 20%;
+  padding: 10px 0 0 10px;
+}
+.activity2 {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 78%;
+  border-radius: 5px;
+}
+.act2a {
+  float: left;
+  font-size: 14px;
+  height: auto;
+  width: auto;
+}
+.act2b {
+  float:right;
+  font-size: 14px;
+  height: auto;
+  width: auto;
+}
+.act2c {
+  float:right;
+  font-size: 14px;
+  height: auto;
+  width: 100%;
+}
+.import {
+  height: auto;
+  width: 100%;
+  padding: 0 0.3em 0.3em 0.3em;
+}
+.notes {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 100%;
+  padding-bottom: 0.3em;
+  border-radius: 5px;    
+}
+.note{
+  height: auto;
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+}
+.note1{
+  background-color: rgb(158, 158, 158);
+  height: 1.5em;
+  width: auto; 
+  border-radius: 5px;
+}
+.note2{
+  border: 1px solid grey;
+  height: 1.5em;
+  width: auto; 
+  border-radius: 5px;
+}
+.sced {
+  height: auto;
+  width: auto;
+  padding: 0 0.3em 0.3em 0.3em;
+}
+.schedule{
+  background-color: rgb(255, 255, 255);
+  height: 12em;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width:610px) {
+  *{
+      padding: 0;
+      margin: 0;
+  } 
+  .exports {
+    float: left;
+    width: 95%;
+  }
+  .r1 , .r2{
+    display: none;
+  }
+  .l1 {
+    width: 80%;
+  }
+  .left {
+    display: none;
+  }
+}

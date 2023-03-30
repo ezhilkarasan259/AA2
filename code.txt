@@ -1,0 +1,19 @@
+.image {
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .image img:nth-child(1){
+    position: relative; 
+    left: 8%;
+}
+.image img:nth-child(2){
+    position: relative;
+    right: 4%;
+}
+.image img:nth-child(3){ 
+    position: relative;
+    right: 16%;
+}
+
+hr@heathersoft.com

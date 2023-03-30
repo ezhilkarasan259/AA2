@@ -1,0 +1,118 @@
+d-lg-12 d-md-12 d-sm-12
+d-lg-block d-md-none d-sm-none d-none
+
+<div class="row row1">
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                <div class="row" Style=" background-color: #d1d1d1; border: 1px solid grey; height: 70em; border-radius: 0 0 0 1em;  border: 1px solid grey;">
+                    <div class="row" Style="padding-left: 3%;">General report</div>
+
+                    <div class="row "  Style="justify-content:space-around; height: auto;">  
+                     <div class="col-2" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 7em;">item1</div>
+                     <div class="col-3" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 7em;">item2</div>
+                     <div class="col-3" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 7em;">item3</div>
+                    <div class="col-2" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 7em;">item4</div> 
+                    </div> 
+
+                    <div class="row" Style="justify-content: space-evenly; height: auto;">
+                        <div class="col-5" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 13em;">Graph</div>
+                        <div class="col-3" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 13em;">Pie-ch1</div>
+                        <div class="col-3" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 13em;">Pie-ch2</div>
+                    </div> 
+
+                    <div class="row" Style="justify-content: space-around; height: auto;">
+                        <div class="col-7" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 10em;">Store</div>
+                        <div class="col-4"  Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 10em;">Best</div>
+                    </div> 
+
+                    <div class="row" Style="justify-content: space-around; height: auto;">
+                      <div class="col-2" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 8em;">Product</div>
+                      <div class="col-3" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 8em;">Product</div>
+                      <div class="col-2" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 8em;">Product</div>
+                      <div class="col-3" Style="background-color: #b9b8b8; border-radius: 0.4em;  height: 8em;">Product</div>
+                    </div> 
+
+                    <div class="row" Style="justify-content: space-around; height: 8em;">
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 1%; border-radius: 0.3em;  height: 3em;">Stock</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 1%; border-radius: 0.3em;  height: 3em;">Stock</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 1%; border-radius: 0.3em;  height: 3em;">Stock</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 1%; border-radius: 0.3em;  height: 3em;">Stock</div>
+                    </div>   
+                </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="row"  Style="padding-top: 2%; background-color: #d1d1d1; border: 1px solid grey; height: auto; border-radius: 0 0 1em 0;  border: 1px solid grey;">
+                    <div class="row" Style="padding-left: 4%;">Transaction</div>
+
+                    <div class="row" Style="justify-content: space-evenly;  margin-top: 0%; height: auto;">
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">View</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">View</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">View</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">View</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">View</div>
+                        <div class="col-11" Style="border: 1px solid grey;  margin-top: 3%; border-radius: 0.3em;  height: 2em;">View More</div>
+                    </div> <br> 
+
+                    <div class="row" Style="justify-content: space-evenly; height: auto;">
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">activities</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">activities</div>
+                        <div class="col-12" Style="justify-content: space-evenly; margin-top: 1%; border-radius: 0.3em;  height: 2em;">12 November</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 0%; border-radius: 0.3em;  height: 3em;">activities</div>
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.3em;  height: 3em;">activities</div>
+                    </div> <br>
+
+                    <div class="row" Style="justify-content: space-evenly; height: auto;">
+                       <div class="col-11"  Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.4em;  height: 6em;">important</div>
+                    </div>
+                    <br>
+                    
+                    <div class="row" Style="justify-content: space-evenly; height: auto;">
+                        <div class="col-11" Style="background-color: #b9b8b8;  margin-top: 3%; border-radius: 0.4em;  height: 10em;">schedule</div>
+                    </div>
+                    <br>
+                </div>
+                </div>
+             </div>
+
+ {/* <ul>
+                <li><HouseOutlinedIcon sx={{fontSize:18}}/> Dashboard</li>
+                <li><ViewInArIcon sx={{fontSize:18}}/> Menu Layout</li>
+                <li><ShoppingBagIcon sx={{fontSize:18}}/> E-Commerce</li>
+                <li><InboxIcon sx={{fontSize:18}}/> Inbox</li>
+                <li><SaveIcon sx={{fontSize:18}}/> File Manager</li>
+                <li><InboxOutlinedIcon sx={{fontSize:18}}/> Point of Sale</li>
+                <li><ChatBubbleOutlineIcon sx={{fontSize:18}}/> Chat</li>
+                <li><PostAddIcon sx={{fontSize:18}}/> Post</li>
+                <li><CalendarMonthIcon sx={{fontSize:18}}/> Calender</li>
+                <li><RateReviewOutlinedIcon sx={{fontSize:18}}/> Crud</li>
+                <li><PeopleAltOutlinedIcon sx={{fontSize:18}}/> User</li>
+                <li><ContactMailOutlinedIcon sx={{fontSize:18}}/> Profile</li>
+                <li><FileCopyOutlinedIcon sx={{fontSize:18}}/> Page</li>
+                <li><InboxIcon sx={{fontSize:18}}/> Component</li>
+                <li><ViewListOutlinedIcon sx={{fontSize:18}}/> Forms</li>
+                <li><SaveIcon sx={{fontSize:18}}/> Widgets</li>
+               </ul> */}
+ 
+ <ul>
+                <li><a href="#home"></a></li>
+                <hr color="grey"> 
+                <li><a href="#news"><HouseOutlinedIcon sx={{fontSize:18}}/> Dashboard</a></li>
+                <li><a href="#contact"><ViewInArIcon sx={{fontSize:18}}/>  Menu Layout</a></li>
+                <li><a href="#about"><ShoppingBagIcon sx={{fontSize:18}}/>  E-Commerce</a></li>
+                <li><a href="#news"><InboxIcon sx={{fontSize:18}}/>  Inbox</a></li>
+                <li><a href="#contact"><SaveIcon sx={{fontSize:18}}/>  File Manager</a></li>
+                <li><a href="#about"><InboxOutlinedIcon sx={{fontSize:18}}/>  Point of Sale</a></li>
+                <li><a href="#news"><ChatBubbleOutlineIcon sx={{fontSize:18}}/>  Chat</a></li>
+                <li><a href="#contact"><PostAddIcon sx={{fontSize:18}}/>  Post</a></li>
+                <li><a href="#about"><CalendarMonthIcon sx={{fontSize:18}}/>  Calender</a></li>
+                <hr color="grey">
+                <li><a href="#news"><RateReviewOutlinedIcon sx={{fontSize:18}}/>  Crud</a></li>
+                <li><a href="#contact"><PeopleAltOutlinedIcon sx={{fontSize:18}}/>  User</a></li>
+                <li><a href="#about"><ContactMailOutlinedIcon sx={{fontSize:18}}/>  Profile</a></li>
+                <li><a href="#about"><FileCopyOutlinedIcon sx={{fontSize:18}}/>  Page</a></li>
+                <hr color="grey">
+                <li><a href="#about"><ViewListOutlinedIcon sx={{fontSize:18}}/>  Component</a></li>
+                <li><a href="#about"><ViewListOutlinedIcon sx={{fontSize:18}}/>  Forms</a></li>
+                <li><a href="#about"><SaveIcon sx={{fontSize:18}}/>   Widgets </a></li>
+              </ul>

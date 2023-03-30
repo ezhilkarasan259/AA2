@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-layout</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="JavaScript" href="prototype3.js">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://kit.fontawesome.com/da7e4c5134.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        
+        <div class="partition1 col-lg-2 d-lg-block d-md-none d-sm-none d-none py-1 gx-0">
+        <div class="row" style="  background-color: #1b41eb; height: auto; margin-right: -1em; ">
+
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-diamond"></i></a></li>
+                <hr color="grey"> 
+                <li><a href="#news"><i class="fa-solid fa-house-chimney"></i>  Dashboard</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-cube"></i>  Menu Layout</a></li>
+                <li><a href="#about"><i class="fa-solid fa-bag-shopping"></i>  E-Commerce</a></li>
+                <li><a href="#news"><i class="fa-solid fa-inbox"></i>  Inbox</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-floppy-disk"></i>  File Manager</a></li>
+                <li><a href="#about"><i class="fa-solid fa-box-archive"></i>  Point of Sale</a></li>
+                <li><a href="#news"><i class="fa-solid fa-message"></i>  Chat</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-file-lines"></i>  Post</a></li>
+                <li><a href="#about"><i class="fa-solid fa-calendar-days"></i>  Calender</a></li>
+                <hr color="grey">
+                <li><a href="#news"><i class="fa-solid fa-pen-to-square"></i>  Crud</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-user-group"></i>  User</a></li>
+                <li><a href="#about"><i class="fa-solid fa-address-card"></i>  Profile</a></li>
+                <li><a href="#about"><i class="fa-solid fa-newspaper"></i>  Page</a></li>
+                <hr color="grey">
+                <li><a href="#about"><i class="fa-solid fa-inbox"></i>  Component</a></li>
+                <li><a href="#about"><i class="fa-solid fa-table-list"></i>  Forms</a></li>
+                <li><a href="#about"><i class="fa-solid fa-floppy-disk"></i>   Widgets</a></li>
+              </ul>
+        </div>
+        </div>  
+
+        <div class="partition2 col-lg-10 d-lg-12 d-md-12 d-sm-12 py-2 px-3 gx-0">
+        <div class="row" style=" background-color: rgb(233, 232, 232); height: auto; border-radius: 1rem;"> 
+                <div class="col-12 ">
+                    <div class="header row" style="justify-content: space-between; border-radius: 1rem; background-color: rgb(233, 232, 232);  height: auto;">
+                        
+                        <div class="top" style=" padding-top: 0.5rem; height: 3em; display:flex; justify-content: space-between;">  
+                           <div class="left"> 
+                            <span id="nav-toggle"><i class="fa-solid fa-bars-staggered"></i></span>
+                            Application > Dashboard                
+                           </div>
+
+                            <div class="search" style="border-radius: 0.5em;">
+                            <form action="/action_page.php">
+                              <input type="text" placeholder="Search.." name="search">
+                              <i class="fa fa-search"></i>
+                              <i class="fa-solid fa-bell"></i>                                
+                              <img style="width: 2em; height: 2em; border-radius: 50px " src="04.jpg" alt="">                                   
+                            </form>
+                            </div>
+                        </div>
+                        <hr color="grey">
+                    </div>
+                </div> 
+
+                <!-- <div class="row" style= ""> -->
+                    <div class="col-lg-9 col-md-12 col-sm-12 gx-0 px-4" >
+                        <div class="GR" style=" height: auto; ">
+                            <div class="row" style="padding-left: 1%;"><h5>General report</h5></div>
+
+                            <div class="row "  style=" height: auto;"> 
+                               
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style=" height: auto;">
+                                  <div class="table1 col-12">
+                                    <!-- <div class="item">
+                                         <div class="item2">
+                                            <div class="b1"><i class="fa-solid fa-cart-shopping" style="color: blue"></i></div> 
+                                            <div class="b2"> <button type="butt1">33% ^</button></div>
+                                         </div>
+                                            <h4>4.710</h4> 
+                                            <p>item Sales</p>
+                                    </div> -->
+                                   </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-12 col-sm-12 px-2 py-2" style=" height: auto;">
+                                    <div class="table2 col-12">
+                                    <!-- <div class="item">
+                                        <div class="item2">
+                                            <div class="b1"><i class="fa-solid fa-envelope" style="color: orangered"></i></div> 
+                                            <div class="b2"> <button type="button">2% ^</button></div>
+                                         </div>
+                                            <h4>3.721</h4> 
+                                            <p>New Order</p> 
+                                    </div> -->
+                                   </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style=" height: auto;">
+                                    <div class="table3 col-12">
+                                      <!-- <div class="item">
+                                        <div class="item2">
+                                            <div class="b1"><i class="fa-solid fa-tv" style="color: orange"></i></i></div> 
+                                            <div class="b2"> <button type="button">12% ^</button></div>
+                                        </div>
+                                            <h4>2.149</h4> 
+                                            <p>Total Product</p>
+                                      </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style=" height: auto;">
+                                    <div class="table4 col-12"> 
+                                      <!-- <div class="item">
+                                        <div class="item2">
+                                            <div class="b1"><i class="fa-solid fa-user" style="color: green"></i></div> 
+                                            <div class="b2"> <button type="button">22% ^</button></div>
+                                        </div>
+                                            <h4>152.040</h4> 
+                                            <p>Unique Visitor</p>
+                                      </div> -->
+                                    </div>
+                                </div>
+                            </div>  
+
+                            <div class="row" style=" height: auto;">
+                                <div class="col-lg-6 col-md-12 col-sm-12 px-2 py-2" style="   height: auto;">
+                                    <div class="graph">
+                                        <div class="sal">
+                                            <div class="s1">Sales Report</div>
+                                            <div class="s2"> 
+                                                <i class="fa-solid fa-calendar-days"></i> 10 Nov 2022 - 10 Dec 2022       
+                                            </div>
+                                         </div>
+                                         <div class="graph1">
+                                            <div class="graph2">
+                                                 <div class="g1"><b>$15000This Month</b></div>
+                                                 <div class="g1"><b>$10000Last Month</b></div>
+                                                 <div class="g2">Filter By Category</div>
+                                                 <div style="clear:both;"></div>
+                                            </div> <br>
+                                            <div class="graphsheet">
+                                                <canvas id="myChart" style="width:100%; max-width:100%"></canvas>
+                                               <script>
+                                                var xValues = [100,200,300,400,500,600,700,800,900,1000];
+                                                    
+                                                    new Chart("myChart", {
+                                                      type: "line",
+                                                      data: {
+                                                        labels: xValues,
+                                                        datasets: [{ 
+                                                          data: [0,1600,2000,2800,1500,2800,3500,4000,3500,4000],
+                                                          borderColor: "skyblue",
+                                                          fill: false
+                                                        }, { 
+                                                          data: [0,1050,1200,900,3500,2800,3000,4700,4200,3800],
+                                                          borderColor: "blue",
+                                                          fill: false
+                                                        }]
+                                                      },
+                                                      options: {
+                                                        legend: {display: false}
+                                                      }
+                                                    });
+                                               </script>
+                                             </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style="  height: auto;">
+                                    <div class="pie">
+                                        
+                                            <div class="weekly"> 
+                                             <div class="week1">Weekly Top Seller</div>
+                                             <div class="week2">Show More</div>
+                                            </div>
+                                            <div class="ch1">
+                                                <canvas id="myChart1" style="width:50%; max-width:90%"></canvas>
+                                                <script>
+                                                var xValues = ["Italy", "France", "Spain"];
+                                                        var yValues = [28, 15, 62];
+                                                        var barColors = [
+                                                        "orange",
+                                                        "yellow",
+                                                        "blue"
+                                                        ];
+
+                                                        new Chart("myChart1", {
+                                                        type: "pie",
+                                                        data: {
+                                                            datasets: [{
+                                                            backgroundColor: barColors,
+                                                            data: yValues
+                                                            }]
+                                                        },
+                                                        });
+                                                </script>
+                                               </div>
+
+                                            <div class="weekly"> 
+                                                <div class="week1"><span class="dot1"></span> 17-30 Years Old</div>
+                                                <div class="week2"><h6>62%</h6></div>
+                                            </div>
+                                            <div class="weekly"> 
+                                                <div class="week1"><span class="dot2"></span> 31-50 Years Old</div>
+                                                <div class="week2"><h6>33%</h6></div>
+                                            </div>
+                                            <div class="weekly"> 
+                                                <div class="week1"><span class="dot3"></span> >=50 Years Old</div>
+                                                <div class="week2"><h6>10%</h6></div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style=" height: auto;">
+                                    <div class="pie">
+                                        <div class="weekly"> 
+                                            <div class="week1">Sales Report</div>
+                                            <div class="week2">Show More</div>
+                                        </div>
+                                        <div class="ch2">
+
+                                            <canvas id="myChart2" style="width:50%; max-width:90%"></canvas>
+                                                 <script>
+                                                    var xValues = ["Italy", "France", "Spain"];
+                                                    var yValues = [28, 15, 52];
+                                                    var barColors = [
+                                                    "orange",
+                                                    "yellow",
+                                                    "blue" 
+                                                    ];
+
+                                                    new Chart("myChart2", {
+                                                    type: "doughnut",
+                                                    data: {
+                                                        datasets: [{
+                                                        backgroundColor: barColors,
+                                                        data: yValues
+                                                        }]
+                                                    },
+                                                    }); 
+                                                </script>
+                                        </div>
+                                        <div class="weekly"> 
+                                            <div class="week1"><span class="dot1"></span> 17-30 Years Old</div>
+                                            <div class="week2"><h6>62%</h6></div>
+                                        </div>
+                                        <div class="weekly"> 
+                                            <div class="week1"><span class="dot2"></span> 31-50 Years Old</div>
+                                            <div class="week2"><h6>33%</h6></div>
+                                        </div>
+                                        <div class="weekly"> 
+                                            <div class="week1"><span class="dot3"></span> >=50 Years Old</div>
+                                            <div class="week2"><h6>10%</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="row" style=" height: auto;">
+                                <div class="col-lg-7 col-md-12 col-sm-12 px-2 py-2" style=" height: auto;">
+                                    <div class="store col-12">
+                                        <!-- <div class="sal">
+                                            <div class="s1"><h6>Official Store</h6></div>
+                                            <div class="s2"> 
+                                                <i class="fa-solid fa-location-dot"></i> Filter by city       
+                                            </div>
+                                         </div>
+                                         <div class="graph1">
+                                            <p>250 Official stores in 21 Countries, Click the Marker to See the location</p>
+                                            <div class="oops">
+                                                <div class="sign"><br><br><i class="fa-solid fa-circle-exclamation"style="margin-left:20%;"></i></div>
+                                                <div class="wrong">
+                                                    <b>Oops! Somthing Went Wrong.</b>
+                                                    <p>This Page dosen't load Google map Correctly, See th JavaScript console for Technical details</p>
+                                                </div>
+                                           </div>
+                                         </div> -->                         
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-5 col-md-12 col-sm-12 px-2 py-2"  style=" height: auto;">
+                                    <div class="best"><h6>Weekly Best Sellers</h6>
+                                      
+                                      <!-- <div class="best1">
+                                        <div class="best2">
+                                           <div class="b3">
+                                                <div class="image" >
+                                                    <img style="width: 2em; height: 2em; border-radius: 10px " src="05.jpg" alt="">
+                                                </div>
+                                           </div>
+                                           <div class="b4">
+                                            <b>Matt Doman</b> 
+                                            <p>05 Nov 2020</p>
+                                           </div>
+                                           <div style="clear:both"></div>
+                                        </div>
+                                        <div class="best3">
+                                           <div class="b2"> <button type="button">137 Sales</button></div> 
+                                        </div>
+                                      </div> -->
+
+                                      <!-- <div class="best1">
+                                        <div class="best2">
+                                           <div class="b3">
+                                                <div class="image" >
+                                                    <img style="width: 2em; height: 2em; border-radius: 10px " src="03.jpg" alt="">
+                                                </div>
+                                           </div>
+                                           <div class="b4">
+                                            <b>Morgen Freeman</b> 
+                                            <p>30 July 2021</p>
+                                           </div>
+                                           <div style="clear:both"></div>
+                                        </div>
+                                        <div class="best3">
+                                           <div class="b2"> <button type="button">137 Sales</button></div> 
+                                        </div>
+                                      </div> -->
+
+                                      <!-- <div class="best1">
+                                        <div class="best2">
+                                           <div class="b3">
+                                                <div class="image">
+                                                    <img style="width: 2em; height: 2em; border-radius: 10px " src="02.jpg" alt="">
+                                                </div>
+                                           </div>
+                                           <div class="b4">
+                                            <b>Denzile Washingtone</b> 
+                                            <p>19 Oct 2021</p>
+                                           </div>
+                                           <div style="clear:both"></div>
+                                        </div>
+                                        <div class="best3">
+                                           <div class="b2"> <button type="button">137 Sales</button></div> 
+                                        </div>
+                                      </div> -->
+
+                                      <!-- <div class="best1">
+                                        <div class="best2">
+                                           <div class="b3">
+                                                <div class="image">
+                                                    <img style="width: 2em; height: 2em; border-radius: 10px " src="06.jpg" alt="">
+                                                </div>
+                                           </div>
+                                           <div class="b4">
+                                            <b>Matt Damone</b> 
+                                            <p>05 Nov 2020</p>
+                                           </div>
+                                           <div style="clear:both"></div>
+                                        </div>
+                                        <div class="best3">
+                                           <div class="b2"> <button type="button">137 Sales</button></div> 
+                                        </div>
+                                      </div> -->
+
+                                     
+                                      
+                                    </div>
+                                    <div class="viewes">View More</div>
+                                </div>
+                            </div> 
+
+                            <div class="row" style=" height: auto;">
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style="   height: auto;">
+                                    <div class="Product">
+                                        <div class="Product1">
+                                            <h6>Target Sales</h6> 
+                                            <p>300 Sales</p>
+                                        </div>
+                                        <div class="Product2">
+                                            <canvas id="myChart" style="width:70%; max-width:70%"></canvas>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style="   height: auto;">
+                                    <div class="Product">
+                                       <div class="product3">
+                                        <div class="p3a"><h6>Social Media</h6> </div>
+                                        <div class="p3b">320 Followers</div>
+                                       </div>
+                                       <div class="product4">
+                                        
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style="   height: auto;">
+                                    <div class="Product">
+                                        <div class="Product1">
+                                            <h6>New Product</h6> 
+                                            <p>1450 products</p>
+                                        </div>
+                                        <div class="Product2">
+                                            <canvas id="myChart" style="width:70%; max-width:70%"></canvas>  
+
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-12 col-sm-12 px-2 py-2" style="   height: auto;">
+                                    <div class="Product">
+                                        <div class="product3">
+                                            <div class="p3a"><h6>Posted Add</h6> </div>
+                                            <div class="p3b">180 Campaing</div>
+                                        </div>
+                                        <div class="product4">
+                                            <div id="myPlot" style="width:100%;max-width:100%"></div>
+
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                              </div> 
+
+                              <div class="row">
+                                <div class="col-12 px-2 py-2" style=" height: auto;">
+                                    <div class="top4">
+                                        <div class="weektop"><h6>Weekly Top Product</h6></div>
+                                        <div class="exports">
+                                            <div class="export"><i class="fa-solid fa-file-lines"></i>Export to PDF</div>
+                                            <div class="export"><i class="fa-solid fa-file-lines"></i>Export to Excel</div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div> <br>
+                                           
+                                  <div class="stock1">
+                                    <div class="l1">
+                                        <div class="ll1">IMAGES</div> 
+                                        <div class="ll1">PRODUCT NAME</div>   
+                                    </div>
+                                   
+                                    <div class="r1">                                                                     
+                                        <div class="rr1">STOCK</div>
+                                        <div class="rr1">STATUS</div>
+                                        <div class="rr1">ACTION</div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                  </div> 
+
+                                  <div class="stock">
+                                   
+                                        <div class="l2">
+                                            <img style="width: 2em; height: 2.5em; border-radius: 50px; padding-top: 0.4em;" src="03.jpg" alt="">
+                                        </div>
+                                        <div class="l2">Samsunge Q90 Qled TV<br>
+                                            Electronic
+                                        </div>
+                                                                                                         
+                                    <div class="r2">
+                                        <div class="rr2">53</div>
+                                        <div class="rr2" style="color: red"><i class="fa-regular fa-square-check" style="color: red"></i>Inactive</div>
+                                        <div class="rr2"><i class="fa-regular fa-square-check"></i>Edit  <i class="fa-regular fa-trash-can" style="color: red"></i>Delet</div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                  </div>
+                                  <div class="stock">
+                                    
+                                        <div class="l2">
+                                        <img style="width: 2em; height: 2.5em; border-radius: 50px; padding-top: 0.4em;" src="06.jpg" alt="">
+                                        </div>
+                                        <div class="l2">Nike Tanjun<br>
+                                            Sports & Outdoor
+                                        </div>
+                                                                                                        
+                                    <div class="r2">
+                                        <div class="rr2">204</div>
+                                        <div class="rr2" style="color: red"><i class="fa-regular fa-square-check" style="color: red"></i>Inactive</div>
+                                        <div class="rr2"><i class="fa-regular fa-square-check"></i>Edit <i class="fa-regular fa-trash-can" style="color: red"></i>Delet</div>                           
+                                    </div>
+                                    <div style="clear:both"></div>
+                                  </div>
+                                  <div class="stock">
+                                    
+                                        <div class="l2">
+                                        <img style="width: 2em; height: 2.5em; border-radius: 50px; padding-top: 0.4em;" src="05.jpg" alt="">
+                                        </div>
+                                        <div class="l2">Samsunge Galexy S20 Ultra<br>
+                                            Smart Phone & Table
+                                        </div>                                                                      
+                                    
+                                    <div class="r2">
+                                        <div class="rr2">104</div>
+                                        <div class="rr2" style="color: lime"><i class="fa-regular fa-square-check" style="color: lime"></i>Active</div>
+                                        <div class="rr2"><i class="fa-regular fa-square-check"></i>Edit  <i class="fa-regular fa-trash-can" style="color: red"></i>Delet</div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                  </div>
+                                  <div class="stock">
+                                    
+                                        <div class="l2">
+                                        <img style="width: 2em; height: 2.5em; border-radius: 50px; padding-top: 0.4em;" src="avatar-3.jpg" alt="">
+                                       </div>
+                                       <div class="l2">OPPO Find X2 pro<br>
+                                        Smart Phone & Table
+                                    </div>
+                                                                                                 
+                                    <div class="r2">
+                                        <div class="rr2">50</div>
+                                        <div class="rr2" style="color: red"><i class="fa-regular fa-square-check" style="color: red"></i>Inactive</div>
+                                        <div class="rr2"><i class="fa-regular fa-square-check"></i>Edit  <i class="fa-regular fa-trash-can" style="color: red"></i>Delet</div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                  </div>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-12 col-sm-12 gx-0 px-1" >
+                        <div class="TR" style=" height: auto;">
+                            <div class="row" style="padding-left: 5%;"><h5>Transaction</h5></div>
+
+                            <div class="row ">
+                                <div class="col-12 px-3 py-1" style=" height: auto;">
+                                 <div class="view">
+                                     <div class="best2">
+                                        <div class="b3">
+                                             <div class="image" style="width: 2em; border-radius: 50%">
+                                                 <img style="width: 2em; height: 2em; border-radius: 50px; " src="avatar-2.jpg" alt="">
+                                             </div>
+                                        </div>
+                                        <div class="b4">
+                                         <b>Matt Damon</b> 
+                                         <p>30 July 202</p>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                     </div>
+                                    <div class="best4" style="color: red">
+                                      $21
+                                    </div>
+                                 </div>
+
+                                 <div class="view">
+                                    <div class="best2">
+                                        <div class="b3">
+                                             <div class="image" style="width: 2em; border-radius: 50%">
+                                                 <img style="width: 2em; height: 2em; border-radius: 50px; " src="avatar-3.jpg" alt="">
+                                             </div>
+                                        </div>
+                                        <div class="b4">
+                                         <b>Morgen Freeman</b> 
+                                         <p>28 Aug 2021</p>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                     </div>
+                                    <div class="best4" style="color: red">
+                                      $21
+                                    </div>
+                                 </div>
+
+                                 <div class="view">
+                                    <div class="best2">
+                                        <div class="b3">
+                                             <div class="image" style="width: 2em; border-radius: 50%">
+                                                 <img style="width: 2em; height: 2em; border-radius: 50px; " src="06.jpg" alt="">
+                                             </div>
+                                        </div>
+                                        <div class="b4">
+                                         <b>Denzile Washingtone</b> 
+                                         <p>30 July 202</p>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                     </div>
+                                    <div class="best4" style="color: red">
+                                      $21
+                                    </div>
+                                 </div>
+
+                                 <div class="view">
+                                    <div class="best2">
+                                        <div class="b3">
+                                             <div class="image" style="width: 2em; border-radius: 50%">
+                                                 <img style="width: 2em; height: 2em; border-radius: 50px; " src="03.jpg" alt="">
+                                             </div>
+                                        </div>
+                                        <div class="b4">
+                                         <b>Matt Damon</b> 
+                                         <p>18 Dec 2020</p>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                     </div>
+                                    <div class="best4" style="color: red">
+                                      $21
+                                    </div>
+                                 </div>
+
+                                 <div class="view">
+                                    <div class="best2">
+                                        <div class="b3">
+                                             <div class="image" style="width: 2em; border-radius: 50%">
+                                                 <img style="width: 2em; height: 2em; border-radius: 50px; " src="08.jpg" alt="">
+                                             </div>
+                                        </div>
+                                        <div class="b4">
+                                         <b>Morgen Freeman</b> 
+                                         <p>03 Sep 2020</p>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                     </div>
+                                    <div class="best4" style="color: red">
+                                      $21
+                                    </div>
+                                 </div>
+
+                                 <div class="viewes">View More</div>
+                                </div>     
+                            </div> 
+
+                            <div class="row">
+                                <div class="col-12 px-3 py-0" style="justify-content: space-evenly; height: auto;">
+                                    <div class="activity">
+                                        <div class="week1"><h6>Recent Activities</h6></div>
+                                            <div class="week2">Show More</div>
+                                    </div>
+                                   <div class="activities">
+                                    <div class="activity1">
+                                        <img style="width: 2em; height: 2em; border-radius: 50px; " src="04.jpg" alt="">
+                                    </div>
+                                    <div class="activity2">
+                                        <div class="act2a">
+                                            <b>Matt Daman</b> 
+                                            <p>28 Aug 2020</p>
+                                        </div>
+                                        <div class="act2b">
+                                            <p>07:00 PM</p>
+                                        </div>
+                                    </div>
+                                   </div> 
+                                   <div class="activities">
+                                    <div class="activity1">
+                                        <img style="width: 2em; height: 2em; border-radius: 50px; " src="06.jpg" alt="">
+                                    </div>
+                                    <div class="activity2">
+                                        <div class="act2a">
+                                            <b>Morgen Freeman</b> 
+                                            <p>30 July 2022</p>
+                                        </div>
+                                        <div class="act2b">
+                                            <p>07:00 PM</p>
+                                        </div>
+                                        <div class="act2c">
+                                         <img style="width: 2.2em; height: 2.2em; border-radius: 10px; " src="avatar-2.jpg" alt="">
+                                         <img style="width: 2.2em; height: 2.2em; border-radius: 10px; " src="avatar-3.jpg" alt="">
+                                         <img style="width: 2.2em; height: 2.2em; border-radius: 10px; " src="03.jpg" alt="">
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="a" style=" border-radius: 0.3em;  height: 2em;">12 November</div>
+                                   <div class="activities">
+                                    <div class="activity1">
+                                        <img style="width: 2em; height: 2em; border-radius: 50px; " src="08.jpg" alt="">
+                                    </div>
+                                    <div class="activity2">
+                                        <div class="act2a">
+                                            <b>Denzile Washingtone</b> 
+                                            <p>30 Oct 2021</p>
+                                        </div>
+                                        <div class="act2b">
+                                            <p>07:00 PM</p>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="activities">
+                                    <div class="activity1">
+                                        <img style="width: 2em; height: 2em; border-radius: 50px; " src="05.jpg" alt="">
+                                    </div>
+                                    <div class="activity2">
+                                        <div class="act2a">
+                                            <b>Matt Daman</b> 
+                                            <p>30 July 2021</p>
+                                        </div>
+                                        <div class="act2b">
+                                            <p>07:00 PM</p>
+                                        </div>
+                                    </div>
+                                   </div>
+                                </div>                                             
+                            </div> 
+
+                            <div class="row">
+                                <div class="col-12 px-3 py-1" >
+                                    <div class="import"><h6>important</h6>
+                                       <div class="notes">
+                                        <b>Loren Ipsome is simply dummy text</b><br>
+                                        Loren Ipsome is simply dummy text of the Printing 
+                                        & typesettin institute. Lorium Ipsome has been the
+                                        industry standard dummy text ever seen in 1500s.
+                                          <div class="note">
+                                            <div class="note1">View Notes</div>
+                                            <div class="note2">Dismiss</div>
+                                           </div>
+                                       </div>
+                                    </div>
+                                </div>
+                             </div> 
+
+                             <div class="row">
+                                <div class="col-12 px-3 py-2" style="justify-content: space-evenly; height: auto;">
+                                    <div class="sced"> 
+                                        <div class="activity">
+                                            <div class="week1"><h6>Schedule</h6></div>
+                                                <div class="week2">+Add New</div>
+                                        </div>
+                                        <div class="schedule">
+ff
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                        </div>
+                    </div>
+                <!-- </div> -->
+            
+        </div> 
+        </div>
+    </div>
+    </div>
+    <script src="prototype3.js"></script>
+</body>
+</html>
